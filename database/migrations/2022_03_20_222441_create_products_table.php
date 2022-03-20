@@ -22,7 +22,7 @@ return new class extends Migration
 
             $table->foreign('category_id')
             ->references('id')
-            ->on('categories_id');
+            ->on('categories');
         });
     }
 
