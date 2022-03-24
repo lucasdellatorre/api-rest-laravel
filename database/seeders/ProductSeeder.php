@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Product;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -31,11 +32,11 @@ class ProductSeeder extends Seeder
                 'value' => 700,
                 'category_id' => 1
             ]
-        ]
+        ];
 
         foreach ($products as $product)
         {
-            Product::create($product)
+            Product::create($product);
         }
     }
 }

@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Discount;
+
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -29,7 +31,7 @@ class DiscountSeeder extends Seeder
                 'category_id' => 3
             ],
 
-        ]
+        ];
 
         foreach($discounts as $discount)
         {
