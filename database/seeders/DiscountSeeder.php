@@ -15,7 +15,7 @@ class DiscountSeeder extends Seeder
      * @return void
      */
 
-     protected $table = 'discounts_categories_rules';
+
 
     public function run()
     {
