@@ -9,7 +9,7 @@ class Discount extends Model
 {
     use HasFactory;
 
-    protected $table = 'discount_category_rules';
+    protected $table = 'discounts_categories_rules';
 
     protected $fillable = [
         'percentual',
